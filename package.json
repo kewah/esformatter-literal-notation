@@ -1,0 +1,35 @@
+{
+  "name": "esformatter-literal-notation",
+  "version": "0.0.1",
+  "description": "esformatter plugin that converts array and object constructors to literal notations",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --reporter spec",
+    "watch": "./node_modules/mocha/bin/mocha --watch --reporter spec"
+  },
+  "keywords": [
+    "esformatter",
+    "plugin",
+    "literal",
+    "notation"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Antoine Lehurt",
+    "email": "hello@kewah.com",
+    "url": "http://kewah.com",
+    "twitter": "https://twitter.com/kewah"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kewah/esformatter-literal-notation"
+  },
+  "dependencies": {
+    "rocambole": "^0.3.6",
+    "rocambole-token": "^1.2.1"
+  },
+  "devDependencies": {
+    "esformatter": "^0.4.2",
+    "mocha": "*"
+  }
+}

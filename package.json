@@ -1,6 +1,6 @@
 {
   "name": "esformatter-literal-notation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "esformatter plugin that converts array and object constructors to literal notations",
   "main": "index.js",
   "scripts": {
